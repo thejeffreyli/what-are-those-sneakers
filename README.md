@@ -33,6 +33,28 @@ Currently, more work is being done to extract images of footwear from other bran
 
 - **model.py:** contains the architecture of CNN 
 
+## Program and System Requirements
+
+We developed this primarily on Google Colab, using Python, PyTorch, and CUDA GPU.
+
+Packages to Install:
+
+```
+pip install torch
+pip install torchvision
+pip install pillow
+pip install matplotlib
+pip install numpy
+pip install pandas
+pip install seaborn
+pip install scikit-learn
+pip install tqdm
+pip install selenium
+pip install requests
+pip install opencv-python
+
+```
+
 ## Model Architecture
 
 | Layer  | Operation                                 | Input Size          | Output Size         |

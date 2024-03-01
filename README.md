@@ -59,16 +59,16 @@ Currently, more work is being done to extract images of footwear from other bran
 
 | Header 1 | Header 2 |
 |----------|----------|
-| ![Image 1](assests\img\sample\555088-105) | 555088-105 |
-| ![Image 2](url3) | 555088-126 |
-| ![Image 3](url1) | 555088-500s |
-| ![Image 4](url3) | 555088-711 |
-| ![Image 5](url1) | DC1788-100 |
-| ![Image 6](url3) | DD9335-641 |
-| ![Image 7](url1) | DO7097-100 |
-| ![Image 8](url3) | DZ5485-031 |
-| ![Image 9](url1) | DZ5485-400 |
-| ![Image 10](url3) | DZ5485-612 |
+| ![Image 1](/assests/img/sample/555088-105.jpg) | 555088-105 |
+| ![Image 2](/assests/img/sample/555088-126.jpg) | 555088-126 |
+| ![Image 3](/assests/img/sample/555088-500.jpg) | 555088-500 |
+| ![Image 4](/assests/img/sample/555088-711.jpg) | 555088-711 |
+| ![Image 5](/assests/img/sample/DC1788-100.jpg) | DC1788-100 |
+| ![Image 6](/assests/img/sample/DD9335-641.jpg) | DD9335-641 |
+| ![Image 7](/assests/img/sample/DO7097-100.jpg) | DO7097-100 |
+| ![Image 8](/assests/img/sample/DZ5485-031.jpg) | DZ5485-031 |
+| ![Image 9](/assests/img/sample/DZ5485-400.jpg) | DZ5485-400 |
+| ![Image 10](/assests/img/sample/DZ5485-612.jpg) | DZ5485-612 |
 
 ## Results
 

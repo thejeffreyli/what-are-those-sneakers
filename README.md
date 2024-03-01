@@ -54,6 +54,16 @@ Currently, more work is being done to extract images of footwear from other bran
 | ReLU   | ReLU()                                     | 256                 | 256                 |
 | FC2    | Linear(256, 10)                           | 256                 | 10                  |
 
+## Example Search Queries on Google Images
+
+- Query Example #1: 
+    - Jordan 1 Retro High OG Chicago Lost and Found 
+    - DZ5485-612
+    - Air Jordan 1 Lost and Found Ebay
+- Query Example #2: 
+    - Jordan 1 Retro High Dark Mocha
+    - 555088-105
+    - Air Jordan 1 Dark Mocha Ebay
 
 ## Sample Images 
 
@@ -72,17 +82,24 @@ Currently, more work is being done to extract images of footwear from other bran
 
 ## Results
 
-![augmentation](/assests/img/augmentation.PNG)
+![augmentation](/assests/img/augmentation.png)
 
-Training image samples following augmentation 
+Training image samples following augmentation.
 
-![augmentation](/assests/img/acc_curve.PNG)
+![acc_curve](/assests/img/acc_curve.png)
+
+![loss_curve](/assests/img/loss_curve.png)
 
 Validation accuracy curves for three experiments:
 - Experiment 1 (67.4%): only RELU activation and MaxPool layer following convolutional layer
 - Experiment 2 (78.1%): introduced Batch Normalization prior to each RELU activation layer
 - Experiment 3 (86.0%): introduced data augmentation techniques for training set, namely Normalization, RandomRotation, and RandomHorizontalFlip 
 
-![augmentation](/assests/img/loss_curve.PNG)
+Validation loss curves for three experiments:
+- Experiment 1 (1.26)
+- Experiment 2 (0.750)
+- Experiment 3 (0.585)
 
-![augmentation](/assests/img/confusion_matrix.PNG)
+![augmentation](/assests/img/confusion_matrix.png)
+
+Confusion Matrix of classification results on validation set.

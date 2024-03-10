@@ -35,7 +35,7 @@ Currently, more work is being done to extract images of footwear from other bran
 
 ## Program and System Requirements
 
-We developed this primarily on Google Colab, using Python, PyTorch, and CUDA GPU.
+We developed this primarily using Python, PyTorch, and CUDA GPU.
 
 Packages to Install:
 
@@ -52,7 +52,6 @@ pip install tqdm
 pip install selenium
 pip install requests
 pip install opencv-python
-
 ```
 
 ## Model Architecture

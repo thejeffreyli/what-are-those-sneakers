@@ -90,26 +90,26 @@ pip install opencv-python
 
 | Image| SKU | Model |
 |----------|----------|------------------------------|
-| ![Image 1](/assests/img/sample/555088-105.jpg) | 555088-105 | Jordan 1 Retro High Dark Mocha |
-| ![Image 2](/assests/img/sample/555088-126.jpg) | 555088-126 | Jordan 1 Retro High Light Smoke Grey |
-| ![Image 3](/assests/img/sample/555088-500.jpg) | 555088-500 | Jordan 1 Retro High Court Purple White |
-| ![Image 4](/assests/img/sample/555088-711.jpg) | 555088-711 | Jordan 1 Retro High OG Taxi
-| ![Image 5](/assests/img/sample/DC1788-100.jpg) | DC1788-100 | Jordan 1 Retro High CO.JP Midnight Navy (2020) |
-| ![Image 6](/assests/img/sample/DD9335-641.jpg) | DD9335-641 | Jordan 1 Retro High OG Atmosphere (Women's) |
-| ![Image 7](/assests/img/sample/DO7097-100.jpg) | DO7097-100 | Jordan 1 Retro High OG A Ma Maniére |
-| ![Image 8](/assests/img/sample/DZ5485-031.jpg) | DZ5485-031 | Jordan 1 Retro High OG Lucky Green |
-| ![Image 9](/assests/img/sample/DZ5485-400.jpg) | DZ5485-400 | Jordan 1 Retro High OG UNC Toe |
-| ![Image 10](/assests/img/sample/DZ5485-612.jpg) | DZ5485-612 | Jordan 1 Retro High OG Chicago Lost and Found |
+| ![Image 1](/assets/img/sample/555088-105.jpg) | 555088-105 | Jordan 1 Retro High Dark Mocha |
+| ![Image 2](/assets/img/sample/555088-126.jpg) | 555088-126 | Jordan 1 Retro High Light Smoke Grey |
+| ![Image 3](/assets/img/sample/555088-500.jpg) | 555088-500 | Jordan 1 Retro High Court Purple White |
+| ![Image 4](/assets/img/sample/555088-711.jpg) | 555088-711 | Jordan 1 Retro High OG Taxi
+| ![Image 5](/assets/img/sample/DC1788-100.jpg) | DC1788-100 | Jordan 1 Retro High CO.JP Midnight Navy (2020) |
+| ![Image 6](/assets/img/sample/DD9335-641.jpg) | DD9335-641 | Jordan 1 Retro High OG Atmosphere (Women's) |
+| ![Image 7](/assets/img/sample/DO7097-100.jpg) | DO7097-100 | Jordan 1 Retro High OG A Ma Maniére |
+| ![Image 8](/assets/img/sample/DZ5485-031.jpg) | DZ5485-031 | Jordan 1 Retro High OG Lucky Green |
+| ![Image 9](/assets/img/sample/DZ5485-400.jpg) | DZ5485-400 | Jordan 1 Retro High OG UNC Toe |
+| ![Image 10](/assets/img/sample/DZ5485-612.jpg) | DZ5485-612 | Jordan 1 Retro High OG Chicago Lost and Found |
 
 ## Results
 
-![augmentation](/assests/img/augmentation.png)
+![augmentation](/assets/img/augmentation.png)
 
 Training image samples following augmentation.
 
-![acc_curve](/assests/img/acc_curve.png)
+![acc_curve](/assets/img/acc_curve.png)
 
-![loss_curve](/assests/img/loss_curve.png)
+![loss_curve](/assets/img/loss_curve.png)
 
 Validation accuracy curves for three experiments:
 - Experiment 1 (67.4%): only RELU activation and MaxPool layer following convolutional layer
@@ -121,6 +121,6 @@ Validation loss curves for three experiments:
 - Experiment 2 (0.750)
 - Experiment 3 (0.585)
 
-![augmentation](/assests/img/confusion_matrix.png)
+![augmentation](/assets/img/confusion_matrix.png)
 
 Confusion Matrix of classification results on validation set.
